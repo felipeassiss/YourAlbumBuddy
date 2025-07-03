@@ -35,7 +35,7 @@ Como esta é uma extensão em desenvolvimento, você pode instalá-la localmente
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone https://github.com/felipeassiss/YourAlbumBuddy.git
     ```
 
 2.  **Abra o Google Chrome** e acesse a página de extensões: `chrome://extensions`.
@@ -44,7 +44,7 @@ Como esta é uma extensão em desenvolvimento, você pode instalá-la localmente
 
 4.  Clique no botão **"Carregar sem compactação"**.
 
-5.  **Selecione a pasta** onde você clonou o repositório.
+5.  **Selecione a pasta** `YourAlbumBuddy` que foi criada no seu computador.
 
 6.  Pronto! A extensão estará instalada. Abra uma nova guia (`Ctrl+T` ou `Cmd+T`) para ver o resultado.
 
