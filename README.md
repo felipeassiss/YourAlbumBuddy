@@ -1,8 +1,10 @@
 # <img src="https://raw.githubusercontent.com/felipeassiss/YourAlbumBuddy/main/chrome_extension_newtab/icon.png" width="45" alt="YourAlbumBuddy Icon"> YourAlbumBuddy
 
-Transforme cada nova guia do seu Google Chrome em uma descoberta musical...
+Transforme sua nova guia do Google Chrome em uma descoberta musical diária!
 
-Transforme cada nova guia do seu Google Chrome em uma descoberta musical. Este projeto transforma a utlização do Chrome em uma descoberta musical diária! 
+Todo dia um álbum aclamado pela crítica é recomendado para você!
+
+
 Foram feitas duas abordagens: uma extensão popup minimalista e uma página de "Nova Guia" completa e imersiva.
 
 ### Versão 1: Extensão Popup
