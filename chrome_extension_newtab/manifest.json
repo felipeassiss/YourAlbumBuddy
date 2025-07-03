@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "YourAlbumBuddy - New Tab",
+  "version": "1.0.0",
+  "description": "Discover classic albums everyday on your new tab!",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://musicbrainz.org/",
+    "https://coverartarchive.org/"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "chrome_url_overrides": {
+    "newtab": "new_tab.html"
+  },
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icon.png",
+        "icons/*.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

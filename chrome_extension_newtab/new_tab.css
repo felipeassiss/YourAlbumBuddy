@@ -1,0 +1,197 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #202124;
+  color: #e8eaed;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* --- CABEÇALHO DE BOAS-VINDAS --- */
+.welcome-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#welcome-message {
+  font-size: 5em;
+  font-weight: 550;
+  color: #f8f9fa;
+  margin: 0;
+}
+
+#date-time {
+  font-size: 1.1em;
+  color: #bdc1c6;
+  margin-top: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* --- BARRA DE PESQUISA ESTILO GOOGLE --- */
+.search-container {
+  width: 100%;
+  max-width: 620px;
+  margin-bottom: 60px;
+}
+
+#search-form {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #dfe1e5;
+  border-radius: 28px;
+  height: 52px;
+}
+
+#search-form:hover, #search-form:focus-within {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-color: #dfe1e5;
+}
+
+#search-input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  font-size: 18px;
+  color: #202124;
+}
+
+#search-input::placeholder {
+  color: #70757a;
+}
+
+#search-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+#search-form button svg {
+  height: 22px;
+  width: 22px;
+  fill: #5f6368;
+}
+
+/* --- SEÇÃO DO ÁLBUM --- */
+.daily-album-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 550px;
+}
+
+.section-title {
+  color: #9aa0a6;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-right: 0;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+
+.loading-text {
+  font-size: 18px;
+  text-align: center;
+  color: #9aa0a6;
+  padding: 40px 0;
+}
+
+.album-presentation {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* MUDANÇA: Estilos para rotação do álbum */
+.album-cover {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-right: 25px;
+  border-radius: 50%; /* Deixa a capa circular */
+  background-color: #303134;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  object-fit: cover; /* Garante que a imagem preencha o círculo */
+  
+  /* Aplica a animação de rotação */
+  animation: rotate 12s linear infinite;
+}
+
+.album-details {
+  text-align: left;
+}
+
+.album-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #e8eaed;
+  margin: 0 0 5px 0;
+}
+
+.album-artist {
+  font-size: 17px;
+  margin: 0;
+  color: #bdc1c6;
+}
+
+.links-section {
+  text-align: left;
+  padding-top: 18px;
+}
+
+.listen-on {
+  font-size: 12px;
+  color: #9aa0a6;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.streaming-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+}
+
+.streaming-links img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+  filter: brightness(0) invert(1) opacity(0.7);
+}
+
+.streaming-links img:hover {
+  transform: scale(1.1);
+  filter: brightness(0) invert(1) opacity(1);
+}

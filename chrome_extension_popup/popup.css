@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  width: 320px;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+#app-container {
+  padding: 20px;
+}
+
+.loading-text {
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+  padding: 40px 0;
+}
+
+.album-presentation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.album-cover {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-right: 15px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background-color: #e0e0e0;
+}
+
+.album-details {
+  text-align: left;
+}
+
+.album-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: #111;
+}
+
+.album-artist {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
+
+.links-section {
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 15px;
+}
+
+.listen-on {
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.streaming-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.streaming-links img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.2s ease;
+}
+
+.streaming-links img:hover {
+  transform: scale(1.1);
+}
