@@ -1,4 +1,6 @@
-# 💿 YourAlbumBuddy
+# <img src="https://raw.githubusercontent.com/felipeassiss/YourAlbumBuddy/main/chrome_extension_newtab/icon.png" width="45" alt="YourAlbumBuddy Icon"> YourAlbumBuddy
+
+Transforme cada nova guia do seu Google Chrome em uma descoberta musical...
 
 Transforme cada nova guia do seu Google Chrome em uma descoberta musical. Este projeto transforma a utlização do Chrome em uma descoberta musical diária! 
 Foram feitas duas abordagens: uma extensão popup minimalista e uma página de "Nova Guia" completa e imersiva.
@@ -10,6 +12,10 @@ Foram feitas duas abordagens: uma extensão popup minimalista e uma página de "
 * **Funcionalidades:**
     * Apresenta a capa, o título e o artista do álbum do dia.
     * Disponibiliza links para ouvir o álbum em plataformas de streaming.
+ 
+![image](https://github.com/user-attachments/assets/078a6516-4d59-447a-9ee0-9ce65b11134c)
+
+
 
 ### Versão 2: Página de Nova Guia
 
@@ -20,6 +26,9 @@ Foram feitas duas abordagens: uma extensão popup minimalista e uma página de "
     * Exibe uma saudação de boas-vindas, data completa e um relógio que atualiza em tempo real.
     * Inclui uma barra de pesquisa para a web.
     * Disponibiliza links para ouvir o álbum em plataformas de streaming.
+ 
+![newtabdemo](https://github.com/user-attachments/assets/3ee0c084-5674-4524-8474-6709e906079c)
+
 
 ## 🚀 Tecnologias Utilizadas
 
